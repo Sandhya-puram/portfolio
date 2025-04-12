@@ -67,8 +67,9 @@ a:hover{
 
 .propic{
     height:95vh;
-    border-radius: 10%;
-    filter: drop-shadow(20px 1px 20px black);
+    object-fit: cover; 
+    mix-blend-mode: multiply;
+   
 }
 
 .Home, .contain{
@@ -155,8 +156,8 @@ button:hover{
 
 .propic2{
     height:68vh;
-    border-radius: 10%;
-    filter: drop-shadow(20px 1px 20px black);
+      object-fit: cover; 
+    mix-blend-mode: multiply;
 }
 
 .para{

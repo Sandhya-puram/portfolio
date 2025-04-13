@@ -1,345 +1,305 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-    <link rel="shortcut icon" href="assets/IMG_7776 .jpg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Media.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+  <link rel="shortcut icon" href="assets/Propic1.JPG" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="Media.css">
 
 </head>
-<body>
-    <nav id="deskop-nav">
-        <div class="nav-container">
-            <div><img src="assets/img.png" class="logo"/></div>
-            <div class="menu-links">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">AboutMe</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </div>
-        </div>
-    </nav>
 
-    <nav id="hamburger-nav">
-      <div class="nav-container">
-          <div><img src="assets/img.png" class="logo"/></div>
-          <div class="hamburger-icon" onclick="toggleMenu()">
-              <span></span>
-              <span></span>
-              <span></span>
-          </div>
-          <div class="menu-links">
-              <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
-              <li><a href="#About" onclick="toggleMenu()">AboutMe</a></li>
-              <li><a href="#" onclick="toggleMenu()">Projects</a></li>
-              <li><a href="#" onclick="toggleMenu()">Skills</a></li>
-              <li><a href="#" onclick="toggleMenu()">Contact Me</a></li>
-          </div>
+<body>
+  <nav id="deskop-nav">
+    <div class="nav-container">
+      <div><img src="assets/img.png" class="logo" /></div>
+      <div class="menu-links">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">AboutMe</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </div>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="nav-container">
+      <div><img src="/assets/img.png" class="logo" /></div>
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#About" onclick="toggleMenu()">AboutMe</a></li>
+        <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#" onclick="toggleMenu()">Contact Me</a></li>
+      </div>
+    </div>
   </nav>
 
 
-  
-    
-    <div id="Home">
-        <div class="Home">
-            <div >
-                <img src="assets/IMG_7776 .jpg"class="propic" alt="profilepic">
-                
-            </div>
-            <div class="text-section">
-                <h2>Hello, I'm</h2>
-                <h1>Sandhya Puram</h1>
-                <h2>A Full Stack Devloper</h2>
-                <br/>
-                <div class="btn">
-                    <button onclick="window.open('./assets/IT cv 2024.pdf' , '__blank')" >
-                        View_CV
-                    </button>
-                    
-                </div>
-                <br/>
-                <div class="socailmedia">
-                    <a href="https://github.com/Sandhya-puram"><img src="/assets/github.png" class="sc" alt="github"/></a>
-                    <a href="https://www.linkedin.com/in/Sandhya puram/"><img src="/assets/linkedin.png" class="sc" alt="linkdin"/></a>
-                    <a href="https://www.instagram.com/im.sandhyareddy16011/"><img src="/assets/free-instagram-logo-icon-3497-thumb.png" class="sc" alt="insatgram"/></a>
-                </div>
-            </div>
 
-           
+
+  <div id="Home">
+    <div class="Home">
+      <div>
+        <img src="assets/Propic1.JPG" class="propic" alt="profilepic">
+
+      </div>
+      <div class="text-section">
+        <h2>Hello, I'm</h2>
+        <h1>Sandhya Puram</h1>
+        <h2>A Full Stack Devloper</h2>
+        <br />
+        <div class="btn">
+          <button onclick="window.open('./assets/IT cv 2024.pdf' , '__blank')">
+            View_CV
+          </button>
+
         </div>
-        
+        <br />
+        <div class="socailmedia">
+          <a href="https://github.com/Sandhya-puram"><img src="assets/github.png" class="sc" alt="github" /></a>
+          <a href="https://www.linkedin.com/in/Sandhya puram/"><img src="assets/linkedin.png" class="sc"
+              alt="linkdin" /></a>
+          <a href="https://www.instagram.com/im.sandhyareddy16011/"><img src="assets/Instgram.png" class="sc"
+              alt="insatgram" /></a>
+        </div>
+      </div>
+
+
     </div>
 
-    <div id="About">
-        <div class="AboutMe">   
-            <div class="about-text">
-                <h5>Get To Know More</h5>
-                <h1>About Me!</h1>
-            </div>
-            
-            <div class="about-image">
-                <img src="assets/IMG_7777.JPG" alt="pic2" class="propic2"/>
-                <div class="para">
-                    <h2>I'm <span>Sandhya Puram</span></h2>
-                    <p>I am a <span class="highlight">Electronics and Communication Engineering  graduate</span> with a specialization in <span class="highlight">Electronics</span> from <span class="highlight">Sphoorthy Engineering College</span>, Hyderabad, class of 2015-2019. My passion for technology has led me to transition into the IT field,
-                     where I am pursuing a career as a <span class="highlight">full-stack developer</span>. I am eager to blend my agricultural knowledge with cutting-edge software development skills to create innovative solutions. As a Full Stack Developer, I specialize in 
-                     creating comprehensive web solutions using <span class="highlight">JavaScript</span>, <span class="highlight">Java</span>, and <span class="highlight">Node.js</span>. I leverage <span class="highlight">React.js</span> for dynamic front-end experiences and combine it with <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, and <span class="highlight">MySQL</span> for robust, scalable applications. My focus is on devel
-                     oping seamless, user-friendly interfaces and efficient back-end systems to deliver high-quality, end-to-end solutions.
-                    </p>
-                </div>
-                
-            </div>
-        </div>
-    </div>
+  </div>
 
-    <div id="skills">
-        <div class="Skills">
-            <h5>Explore My</h5>
-            <h1>Skills</h1>
-            <div class="skill-container">
-                <div class="abt-container">
-                    <div class="detailed-container">
-                        <h2 class="expriencesubtitle">Full Stack Developer</h2>
-                        <div class="article-container">
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>HTML</h3>
-                                    <p>Experienced</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>Css</h3>
-                                    <p>Experienced</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="article-container">
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>JavaScript</h3>
-                                    <p>Basic</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>React.js</h3>
-                                    <p>Moderate.....</p>
-                                </div>
-                            </article>
-                        </div>
-                        <hr>
-                        <br/>
-                        <div class="article-container">
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>Node.js</h3>
-                                    <p>Moderate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="./assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>Java</h3>
-                                    <p>Moderate.....</p>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="article-container">
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>GIT</h3>
-                                    <p>Moderate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>SpringBoot</h3>
-                                    <p>Moderate.....</p>
-                                </div>
-                            </article>
-                        </div>
-                        <hr>
-                        <br/>
-                        <div class="article-container">
-                            <article>
-                                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
-                                <div>
-                                    <h3>SQL</h3>
-                                    <p>Moderate</p>
-                                </div>
-                            </article>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>     
-        </div>
-    </div>
+  <div id="About">
+    <div class="AboutMe">
+      <div class="about-text">
+        <h5>Get To Know More</h5>
+        <h1>About Me!</h1>
+      </div>
 
-    <div id="projects">
-      <div class="projects">
-            <p >Browse My Recent</p>
-            <h1 >Projects</h1>
-      < <div class="experience-details-container">
+      <div class="about-image">
+        <img src="assets/Propic2.JPG" alt="pic2" class="propic2" />
+        <div class="para">
+          <h2>I'm <span>Sandhya Puram</span></h2>
+          <p>I am a <span class="highlight">Electronics and Communication Engineering graduate</span> with a
+            specialization in <span class="highlight">Electronics</span> from <span class="highlight">Sphoorthy
+              Engineering College</span>, Hyderabad, class of 2015-2019. My passion for technology has led me to
+            transition into the IT field,
+            where I am pursuing a career as a <span class="highlight">full-stack developer</span>. I am eager to blend
+            my agricultural knowledge with cutting-edge software development skills to create innovative solutions. As a
+            Full Stack Developer, I specialize in
+            creating comprehensive web solutions using <span class="highlight">JavaScript</span>, <span
+              class="highlight">Java</span>, and <span class="highlight">Node.js</span>. I leverage <span
+              class="highlight">React.js</span> for dynamic front-end experiences and combine it with <span
+              class="highlight">HTML</span>, <span class="highlight">CSS</span>, and <span
+              class="highlight">MySQL</span> for robust, scalable applications. My focus is on devel
+            oping seamless, user-friendly interfaces and efficient back-end systems to deliver high-quality, end-to-end
+            solutions.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="skills">
+    <div class="Skills">
+      <h5>Explore My</h5>
+      <h1>Skills</h1>
+      <div class="skill-container">
+        <div class="abt-container">
+          <div class="detailed-container">
+            <h2 class="expriencesubtitle">Full Stack Developer</h2>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>Css</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>React.js</h3>
+                  <p>Moderate.....</p>
+                </div>
+              </article>
+            </div>
+            <hr>
+            <br />
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>Node.js</h3>
+                  <p>Moderate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>Java</h3>
+                  <p>Moderate.....</p>
+                </div>
+              </article>
+            </div>
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>GIT</h3>
+                  <p>Moderate</p>
+                </div>
+              </article>
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>SpringBoot</h3>
+                  <p>Moderate.....</p>
+                </div>
+              </article>
+            </div>
+            <hr>
+            <br />
+            <div class="article-container">
+              <article>
+                <img src="assets/checkmark.png" class="iconn" alt="skill-icon">
+                <div>
+                  <h3>SQL</h3>
+                  <p>Moderate</p>
+                </div>
+              </article>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <div class="projects">
+      <p>Browse My Recent</p>
+      <h1>Projects</h1>
+      <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-containerr color-container">
             <div class="article-container">
-              <img
-                src="assets/Screenshot 2025-01-02 184447.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div> 
-            <!-- <h2 class="experience-sub-title project-title">My Portfolio</h2>
+              <img src="assets/Propic.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">My Portfolio</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Sandhya-puram/portfolio0'"
-              >
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sandhya-puram/portfolio0'">
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ashiqroshan1.netlify.app/'"
-              >
+              <button class="btn btn-color-2 project-btn" onclick="location.href=''">
                 Live Demo
               </button>
             </div>
           </div>
           <div class="details-containerr color-container">
             <div class="article-container">
-              <img
-                src="./assets/Screenshot 2025-01-02 184539.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div> -->
-            <!-- <h2 class="experience-sub-title project-title">ICalculator</h2>
+              <img src="assets/Birthday.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">BirthdayCard</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Ashiqroshan1/iphone-calculator'"
-              >
+
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sandhya-puram/BirthdayCard'">
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://icalculatorsample.netlify.app/'"
-              >
-                Live Demo
-              </button>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://sandhya-puram.github.io/BirthdayCard/'">
+                  Live Demo
+                </button>
+              </div>
             </div>
-            </div>
+          </div>
+
           <div class="details-containerr color-container">
             <div class="article-container">
-              <img
-                src="./assets/Screenshot 2025-01-02 184608.png"
-                alt="Project 1"
-                class="project-img"
-              />
+              <img src="assets/Calculator.png" alt="Project 3" class="project-img" />
             </div>
-            <h2 class="experience-sub-title project-title">Counter</h2> -->
-            <!-- <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Ashiqroshan1/counter.js'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://countersample.netlify.app/'"
-              >
-                Live Demo
-              </button>
-            </div>
-            </div>
-          <div class="details-containerr color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Screenshot 2025-01-02 184646.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">ToDo-List</h2> -->
+            <h2 class="experience-sub-title project-title">Calculator</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Sandhya-puram/BirthdayCard'"
-              >
+
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Sandhya-puram/Calculator'">
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                 onclick="location.href='https://toodolistsample.netlify.app/'"
-              > 
-                Live Demo
-              </button>
+              <div class="btn-container">
+                <button class="btn btn-color-2 project-btn"
+                  onclick="location.href=' https://sandhya-puram.github.io/Calculator/'">
+                  Live Demo
+                </button>
+              </div>
             </div>
           </div>
         </div>
-
-        
-        
       </div>
-    </div>
 
-    <div id="contact">
+      <div id="contact">
         <div class="contact">
-            <h5>Get in Touch</h5>
-            <h1 >Contact Me</h1>
-            <div class="contact-info-upper-container">
-                <div class="contact-info-container">
-                <img
-                    src="assets/email.png"
-                    alt="Email icon"
-                    class="iconn contact-icon email-icon"
-                />
-                <p><a href="mailto:sandhyareddy16011@@gmail.com" class="info">sandhyareddy16011@gmail.com</a></p>
-                </div>
-                <div class="contact-info-container">
-                <img
-                    src="assets/linkedin.png"
-                    alt="LinkedIn icon"
-                    class="iconn contact-icon"
-                />
-                <p><a href="https://www.linkedin.com" class="info">LinkedIn</a></p>
+          <h5>Get in Touch</h5>
+          <h1>Contact Me</h1>
+          <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+              <img src="./assets/email.png" alt="Email icon" class="iconn contact-icon email-icon" />
+              <p><a href="mailto:sandhyareddy16011@@gmail.com" class="info">sandhyareddy16011@gmail.com</a></p>
             </div>
+            <div class="contact-info-container">
+              <img src="./assets/linkedin.png" alt="LinkedIn icon" class="iconn contact-icon" />
+              <p><a href="https://www.linkedin.com" class="info">LinkedIn</a></p>
             </div>
-            <footer>
-              <nav>
-                  <div class="nav-links-container">
-                    <ul class="menu-links" id="font">
-                      <li><a href="#Home">Home</a></li>
-                      <li><a href="#About">About Me</a></li>
-                      <li><a href="#projects">Projects</a></li>
-                      <li><a href="#skills" >Skills</a></li>
-                    </ul>
-                  </div>
-                </nav>
-                <p>Copyright &#169; 2025 Sandhyapuram. All Rights Reserved.</p>
+          </div>
+          <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="menu-links" id="font">
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#About">About Me</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p>Copyright &#169; 2025 Sandhyapuram. All Rights Reserved.</p>
           </footer>
-            
+
         </div>
-        
-    </div>
+
+      </div>
 
 
-    <script src="script.js"></script>
+      <script src="script.js"></script>
 </body>
+
 </html>
